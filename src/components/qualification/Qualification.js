@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 function Qualification() {
-    const [isQfn, setIsQfn] = useState(true);
+    const [isQfn, setIsQfn] = useState(false);
     const eduHandler = () => {
         setIsQfn(true);
       };

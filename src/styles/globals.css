@@ -475,7 +475,20 @@ img {
 
 /*==================== SKILLS ====================*/
 .skills__container{
-  row-gap: 0;
+  row-gap: 2rem;
+}
+
+.skills__section__header {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+.skills__section__header i {
+  margin: auto 0;
+  color: var(--first-color);
+  cursor: pointer;
+  margin-top: 0.5rem;
 }
 
 .skills_header{
