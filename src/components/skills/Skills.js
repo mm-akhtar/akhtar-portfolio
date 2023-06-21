@@ -3,20 +3,6 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import SwiperCore, {Navigation, Pagination, Mousewheel, Keyboard, Autoplay} from 'swiper/core';
 SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard, Autoplay]);
 function Skills() {
-	const [isFendSkills, setIsFendSkills] = useState(true);
-	const [isBendSkills, setIsBendSkills] = useState(false);
-	const [isDesign, setIsDesign] = useState(false);
-
-	const fEndHandler = () => {
-		setIsFendSkills((pervState) => !pervState);
-	};
-	const bEndHandler = () => {
-		setIsBendSkills((pervState) => !pervState);
-	};
-	const designHandler = () => {
-		setIsDesign((pervState) => !pervState);
-	};
-
 	return (
 		<section className='skills section' id='skills'>
 			<div className='skills__section__header'>
@@ -30,6 +16,7 @@ function Skills() {
 
 			<div className='container'>
 				<Swiper
+					loop
 					pagination={{
 						dynamicBullets: true,
 						clickable: true,
@@ -49,11 +36,12 @@ function Skills() {
 						disableOnInteraction: false,
 					}}
 					speed={2000}
-					// centeredSlides={true}
 					grabCursor={true}
 					spaceBetween={48}
 					className='mySwiper'
-					loop={true}>
+					loopAdditionalSlides={2}
+					loopFillGroupWithBlank={true}
+				>
 					<SwiperSlide>
 						<div>
 							<div className={`skills__content skills__open`}>

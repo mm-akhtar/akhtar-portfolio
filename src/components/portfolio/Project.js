@@ -15,7 +15,7 @@ function Project() {
             </a>
           </div>
 
-          <img src="/img/project_2.png" alt="project" className="project__img"></img>
+          <img src="/img/ai_robot.gif" alt="project" className="project__img"></img>
         </div>
       </div>
     </section>
