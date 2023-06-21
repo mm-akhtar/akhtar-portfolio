@@ -1,19 +1,17 @@
 import About from '../components/about/About';
 import Skills from '../components/skills/Skills';
 import Qualification from '../components/qualification/Qualification';
-import Services from '../components/offer/Services'
+import Services from '../components/offer/Services';
 import Portfolio from '../components/portfolio/Portfolio';
-import Project from '../components/portfolio/Project'
+import Project from '../components/portfolio/Project';
 import Testimonial from '../components/testimonial/Testimonial';
 import Contact from '../components/Contact/Contact';
 import MyComponent from '../components/about/Splash';
-
-
+import Typewriter from 'typewriter-effect';
+import {Icon} from '@iconify/react';
 
 export default function Home() {
-
-
-  return (
+	return (
 		<div className='main'>
 			{/* HOME */}
 			<section className='home section' id='home'>
@@ -24,8 +22,8 @@ export default function Home() {
 								<i className='uil uil-linkedin-alt'></i>
 							</a>
 
-							<a href='https://twitter.com/mm_akhtar_' className='home__social-icon' target='_blank'>
-								<i className='uil uil-twitter-alt'></i>
+							<a href='https://www.fiverr.com/mm_akhtar' className='home__social-icon' target='_blank'>
+								<Icon icon='tabler:brand-fiverr' style={{marginBottom: '-5px'}}></Icon>
 							</a>
 
 							<a href='https://github.com/mm-akhtar' className='home__social-icon' target='_blank'>
@@ -33,33 +31,45 @@ export default function Home() {
 							</a>
 						</div>
 						<div className='home__img'>
-							{/* <svg className='home__blob' viewBox='0 0 200 187' xmlns='http://www.w3.org/2000/svg'>
-                <mask id='mask0' mask-type='alpha'>
-                  <path
-                    d='M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z'
-                  />
-                </mask>
-                <g mask='url(#mask0)'>
-                  <path
-                    d='M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z'
-                  />
-                  <image className='home__blob-img' x='12' y='18' href='/img/profile_7.png' />
-                </g>
-              </svg> */}
 							<MyComponent />
 						</div>
-            <div className='home__data'>
-              <h4 className='home__hey'>Hey,</h4>
+						<div className='home__data'>
+							<h4 className='home__hey'>Hey,</h4>
 							<h1 className='home__title'>I'm M M Akhtar</h1>
-							<h3 className='home__subtitle'>Frontend developer</h3>
+							<div className='home__subtitle_wrapper'>
+								<Typewriter
+									onInit={(typewriter) => {
+										typewriter
+											.pauseFor(1000)
+											.changeDelay(110)
+											.typeString('Full Stack Developer')
+											.pauseFor(1000)
+											.deleteAll()
+											.changeDelay(110)
+											.typeString('React / NextJs Developer')
+											.pauseFor(1000)
+											.deleteAll()
+											.changeDelay(110)
+											.typeString('AI & Blockchain Enthusiast')
+											.pauseFor(1000)
+											.deleteAll()
+											.changeDelay(110)
+											.typeString('Movie Buff')
+											.pauseFor(1000)
+											.start();
+									}}
+									options={{
+										loop: true,
+										delay: 100,
+										cursorClassName: 'cursor',
+										cursor: '',
+										wrapperClassName: 'home__subtitle',
+									}}
+								/>
+							</div>
+							{/* <h3 className='home__subtitle'>Frontend developer</h3> */}
 							<p className='home__description'>High level experience in web design and development knowledge, producing quality work.</p>
-							<a href='#contact' className='button button--flex'>
+							<a href='#contact' className='button button--flex portfolio__button'>
 								Contact Me <i className='uil uil-message button__icon'></i>
 							</a>
 						</div>

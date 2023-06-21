@@ -1,3 +1,5 @@
+import AboutCard from "../common/AboutCard";
+
  function About() {
     return(
       <section className='about section' id='about'>
@@ -5,7 +7,8 @@
       <span className='section__subtitle'>My Introduction</span>
 
       <div className='about__container container grid'>
-        <img src='/img/about_2.png' alt='Akhtar' className='about__img'></img>
+          {/* <img src='/img/about_2.png' alt='Akhtar' className='about__img'></img> */ }
+          <AboutCard />
 
         <div className='about__data'>
           <p className='about__description'>Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.</p>
