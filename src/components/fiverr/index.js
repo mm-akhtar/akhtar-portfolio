@@ -9,7 +9,7 @@ const Fiverr = () => {
 				<div className='fiverr__profile__card'>
 					<div className='fiverr__profile'>
 						<div className='fiverr__akhtar'>
-							<img src='/img/akhtar_about.jpg' alt='Akhtar' className=''></img>
+							<img src='/img/akhtar_about.png' alt='Akhtar' className=''></img>
 						</div>
 						<h2 className='fiverr__title'>M M Akhtar</h2>
 						<h2 className='fiverr__username'>@mm_akhtar</h2>

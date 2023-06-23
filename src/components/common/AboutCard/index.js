@@ -9,7 +9,7 @@ const AboutCard = () => {
 						<div className='card__depth'>
 							<div className='card__front__content'>
 								<div className='card__front_left'>
-									<img src='/img/akhtar_about.jpg' alt='Akhtar' className='card__akhtar'></img>
+									<img src='/img/akhtar_about.png' alt='Akhtar' className='card__akhtar'></img>
 								</div>
 								<div className='card__front_right'>
 									<div>
