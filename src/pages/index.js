@@ -9,6 +9,8 @@ import Contact from '../components/Contact/Contact';
 import MyComponent from '../components/about/Splash';
 import Typewriter from 'typewriter-effect';
 import {Icon} from '@iconify/react';
+import Tools from '../components/Tools';
+import Fiverr from '../components/fiverr';
 
 export default function Home() {
 	return (
@@ -91,6 +93,8 @@ export default function Home() {
 			<Portfolio />
 			<Project />
 			<Testimonial />
+			<Tools />
+			<Fiverr />
 			<Contact />
 		</div>
 	);

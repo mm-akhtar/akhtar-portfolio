@@ -2,11 +2,11 @@ import React from 'react';
 
 const AboutCard = () => {
 	return (
-		<div class='cards__wrapper'>
-			<div class='card__container'>
-				<div class='about__card'>
-					<div class='card__contents card__front'>
-						<div class='card__depth'>
+		<div className='cards__wrapper'>
+			<div className='card__container'>
+				<div className='about__card'>
+					<div className='card__contents card__front'>
+						<div className='card__depth'>
 							<div className='card__front__content'>
 								<div className='card__front_left'>
 									<img src='/img/akhtar_about.jpg' alt='Akhtar' className='card__akhtar'></img>
@@ -49,8 +49,8 @@ const AboutCard = () => {
 							</div>
 						</div>
 					</div>
-					<div class='card__contents card__back'>
-						<div class='card__depth'>
+					<div className='card__contents card__back'>
+						<div className='card__depth'>
 							<div className='card__back__content'>
                                 <img src='/img/phyniks.png' alt='Akhtar' className='card__logo'></img>
                                 <h1>+</h1>

@@ -37,6 +37,11 @@ export default function Nav ({themeHandler, isDark}) {
                         </a>
                     </li>
                     <li className="nav__item">
+                        <a href="#tools" className="nav__link" onClick={toggleHandler}>
+                        <i className="uil nav__icon uil-scenery" ></i> Tools
+                        </a>
+                    </li>
+                    <li className="nav__item">
                         <a href="#contact" className="nav__link" onClick={toggleHandler}>
                         <i className="uil nav__icon uil-message"></i> Contact
                         </a>
