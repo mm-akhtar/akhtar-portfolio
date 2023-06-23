@@ -2,7 +2,7 @@ import Head from "next/head";
 import React, {useState} from "react";
 // import Footer from "../../pages/footer";
 import Nav from "../nav/Nav";
-import Footer from "../footer/footer";
+import Footer from '../footer/Footer';
 function Layout(props) {
   const [isDark, setIsDark] = useState(true)
 
