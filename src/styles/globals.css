@@ -1774,7 +1774,7 @@ width: var(--size);
 }
 
 .testimonial__card:hover .testimonial__overlay {
-  transform: scale(16) translateZ(0);
+  transform: scale(17) translateZ(0);
 }
 
 .testimonial__card:hover p {
@@ -2216,7 +2216,8 @@ figure.snip1206.hover figcaption div {
   transform: scale(0.75);
 }
 .testimonial__description{
-  font-size: var(--small-font-size);
+  font-size: var(--small-font-size) !important;
+  font-size: 0.6rem !important;
 }
 }
 
@@ -2225,4 +2226,8 @@ figure.snip1206.hover figcaption div {
      left: 50%;
     transform: translate(-50%, 0);
   }
+  .testimonial__description{
+  font-size: var(--small-font-size) !important;
+  font-size: 0.6rem !important;
+}
 }
