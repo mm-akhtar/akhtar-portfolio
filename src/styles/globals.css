@@ -1610,7 +1610,7 @@ width: var(--size);
   margin: 0 auto;
   height: 280px !important;
   width: 450px !important;
-  max-width: 85vw !important;
+  max-width: 90vw !important;
   position: relative;
   border-radius: 25px;
   transition: all 1s ease;
@@ -2172,8 +2172,14 @@ figure.snip1206.hover figcaption div {
 @media screen and (max-width: 768px){
   .about__card {
   height: 180px !important;
-  width: 300px !important;
+  width: 320px !important;
   border-radius: 15px;
+}
+.about__subtitle{
+  font-size: 0.6rem;
+}
+.card__front_left {
+  width: 25%;
 }
 .card__contents {
   border-radius: 15px;
