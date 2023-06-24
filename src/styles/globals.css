@@ -945,6 +945,7 @@ img {
 
 .testimonial__description{
   margin-bottom: var(--mb-2-5);
+  font-size: 1rem;
 }
 
 .testimonial__icon-star{
@@ -2178,6 +2179,12 @@ figure.snip1206.hover figcaption div {
 .about__subtitle{
   font-size: 0.6rem;
 }
+.ai__tools__card {
+  padding: 20px 20px;
+}
+.portfolio__img {
+  margin: 0 auto;
+}
 .card__front_left {
   width: 25%;
 }
@@ -2207,6 +2214,9 @@ figure.snip1206.hover figcaption div {
 }
 .tools__slide {
   transform: scale(0.75);
+}
+.testimonial__description{
+  font-size: var(--small-font-size);
 }
 }
 

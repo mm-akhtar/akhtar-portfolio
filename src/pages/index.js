@@ -70,7 +70,7 @@ export default function Home() {
 								/>
 							</div>
 							{/* <h3 className='home__subtitle'>Frontend developer</h3> */}
-							<p className='home__description'>High level experience in Full stack software design and development, producing quality work.</p>
+							<p className='home__description'>Experience in Full stack software design and development, producing quality work.</p>
 							<a href='#contact' className='button button--flex portfolio__button'>
 								Contact Me <i className='uil uil-message button__icon'></i>
 							</a>
