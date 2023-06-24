@@ -1,4 +1,5 @@
 import React from 'react';
+import {useEffect, useState} from 'react';
 
 const Fiverr = () => {
 	return (
@@ -22,7 +23,7 @@ const Fiverr = () => {
 							<h4 className='fiverr__review__count'>(30+ reviews)</h4>
 						</div>
 						<div className='fiverr__contact'>
-							<a className='button button--flex' itemprop='url' href='https://www.fiverr.com/mm_akhtar' rel='nofollow' target='_blank'>
+							<a className='button button--flex' itemProp='url' href='https://www.fiverr.com/mm_akhtar' rel='nofollow' target='_blank'>
 								Contact Me
 								<i className='uil uil-message button__icon'></i>
 							</a>
@@ -66,13 +67,13 @@ const Fiverr = () => {
 							<img src='/fiverr/dashboard.png' alt='Dashboard' className=''></img>
 							<figcaption>
 								<h2>I will create react js next js dashboard with tailwind css</h2>
-								<p>
+								<div>
 									Starting at <span>$100</span>
-								</p>
-								<p>
+								</div>
+								<div>
 									<i className='uil uil-star fiverr__info-icon'></i>
 									<h6>(3)</h6>
-								</p>
+								</div>
 							</figcaption>
 							<a href='#'></a>
 						</figure>
@@ -80,13 +81,13 @@ const Fiverr = () => {
 							<img src='/fiverr/react.png' alt='Dashboard' className=''></img>
 							<figcaption>
 								<h2>I will develop react js next js website with tailwind css</h2>
-								<p>
+								<div>
 									Starting at <span>$50</span>
-								</p>
-								<p>
+								</div>
+								<div>
 									<i className='uil uil-star fiverr__info-icon'></i>
 									<h6>(3)</h6>
-								</p>
+								</div>
 							</figcaption>
 							<a href='#'></a>
 						</figure>
@@ -94,13 +95,13 @@ const Fiverr = () => {
 							<img src='/fiverr/react-next.png' alt='Dashboard' className=''></img>
 							<figcaption>
 								<h2>I will convert react js web app to next js web app</h2>
-								<p>
+								<div>
 									Starting at <span>$20</span>
-								</p>
-								<p>
+								</div>
+								<div>
 									<i className='uil uil-star fiverr__info-icon'></i>
 									<h6>(5)</h6>
-								</p>
+								</div>
 							</figcaption>
 							<a href='#'></a>
 						</figure>
@@ -110,13 +111,13 @@ const Fiverr = () => {
 							<img src='/fiverr/nextjs.png' alt='Dashboard' className=''></img>
 							<figcaption>
 								<h2>I will be your next js react js frontend developer</h2>
-								<p>
+								<div>
 									Starting at <span>$10</span>
-								</p>
-								<p>
+								</div>
+								<div>
 									<i className='uil uil-star fiverr__info-icon'></i>
 									<h6>(7)</h6>
-								</p>
+								</div>
 							</figcaption>
 							<a href='#'></a>
 						</figure>
@@ -124,13 +125,13 @@ const Fiverr = () => {
 							<img src='/fiverr/figma-react.png' alt='Dashboard' className=''></img>
 							<figcaption>
 								<h2>I will convert figma to react next js app with tailwind css</h2>
-								<p>
+								<div>
 									Starting at <span>$50</span>
-								</p>
-								<p>
+								</div>
+								<div>
 									<i className='uil uil-star fiverr__info-icon'></i>
 									<h6>(2)</h6>
-								</p>
+								</div>
 							</figcaption>
 							<a href='#'></a>
 						</figure>
@@ -138,13 +139,13 @@ const Fiverr = () => {
 							<img src='/fiverr/bug.png' alt='Dashboard' className=''></img>
 							<figcaption>
 								<h2>I will fix bug in frontend development for react / next</h2>
-								<p>
+								<div>
 									Starting at <span>$10</span>
-								</p>
-								<p>
+								</div>
+								<div>
 									<i className='uil uil-star fiverr__info-icon'></i>
 									<h6>(1)</h6>
-								</p>
+								</div>
 							</figcaption>
 							<a href='#'></a>
 						</figure>

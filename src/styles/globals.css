@@ -768,7 +768,8 @@ img {
 
 .services__modal-content{
   position: relative;
-  background-color: var(--container-color);
+  background: linear-gradient(to right, var(--container-color), var(--body-color));
+  box-shadow: var(--m-shadow, .4rem .4rem 10.2rem .2rem) hsla(236, 50%, 50%, .3);
   padding: 1.5rem;
   border-radius: .5rem;
 }
@@ -785,7 +786,7 @@ img {
 .services__modal-title{
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1-5);
+  padding-bottom: var(--mb-1-5) !important;
 }
 
 .services__modal-close{
@@ -929,6 +930,7 @@ img {
   height: 60px;
   border-radius: 50%;
   margin-right: var(--mb-0-75);
+  object-fit: contain;
 }
 
 .testimonial__name{
@@ -1192,11 +1194,14 @@ input[type=number] {
 
   .about__container,
   .skills__container,
-  .portfolio__content,
+  
   .project__container,
   .contact__container,
   .footer__container{
     grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio__content {
+    grid-template-columns: 1fr 2fr ;
   }
 
   .fiverr__container {
@@ -1402,7 +1407,7 @@ input[type=number] {
   }
 
   .portfolio__content{
-    column-gap: 5rem;
+    column-gap: 3rem;
   }
   
 
@@ -1646,7 +1651,7 @@ width: var(--size);
   margin: 0 auto;
 }
 .card__contents hr {
-  width: 150%;
+  width: 100%;
   margin: 20px auto;
 }
 .card__contents p {
@@ -1675,7 +1680,7 @@ width: var(--size);
 }
 
 .card__front_left {
-  width: 35%;
+  width: 32%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1684,7 +1689,7 @@ width: var(--size);
 }
 
 .card__front_right {
-  padding-left: 2rem;
+  padding-left: 1.5rem;
   margin: auto 0;
   display: flex;
   flex-direction: column;
@@ -1759,7 +1764,7 @@ width: var(--size);
   flex-direction: column;
   position: relative;
   transition: all 0.3s ease-out;
-
+  height: 70% !important;
 }
 
 
@@ -1920,26 +1925,6 @@ width: var(--size);
 }
 
 /* FIverr */
-.ai__tools__card {
-	position: relative;
-	background: var(--body-color);
-	border-top-left-radius: 16px;
-	border-top-right-radius: 16px;
-  padding: 40px 40px;
-  margin: 2px;
-}
-.ai__tools__card::before,
-.ai__tools__card::after {
-	content: '';
-	position: absolute;
-	inset: -1px !important;
-	z-index: -1 !important;
-	background: linear-gradient(180deg, var(--first-color-lighter) -35.15%, rgba(255, 255, 255, 0) 65.6%) !important;
-	animation: rotate 10s linear infinite;
-	border-top-left-radius: 17px;
-	border-top-right-radius: 17px;
-}
-
 .fiverr__profile__card {
   position: relative;
   /* background-color: #89253e !important; */
@@ -2118,7 +2103,7 @@ figure.snip1206 figcaption {
   z-index: 1;
 }
 figure.snip1206 h2,
-figure.snip1206 p {
+figure.snip1206 div {
   margin: 0;
   width: 100%;
   opacity: 0;
@@ -2130,7 +2115,7 @@ figure.snip1206 h2 {
   font-weight: 600;
   font-size: var(--h3-font-size);
 }
-figure.snip1206 p {
+figure.snip1206 div {
   padding: 0 50px;
   font-size: var(--smaller-font-size);
   font-weight: 500;
@@ -2139,13 +2124,13 @@ figure.snip1206 p {
   justify-content: center;
 }
 
-figure.snip1206 p span {
+figure.snip1206 div span {
   color: #1DBF73;
   font-size: var(--small-font-size);
   font-weight: bolder;
   padding-left: 5px;
 }
-figure.snip1206 p h6 {
+figure.snip1206 div h6 {
   display: inline;
   font-size: var(--small-font-size);
   font-weight: lighter;
@@ -2167,8 +2152,8 @@ figure.snip1206.hover:after {
 }
 figure.snip1206:hover figcaption h2,
 figure.snip1206.hover figcaption h2,
-figure.snip1206:hover figcaption p,
-figure.snip1206.hover figcaption p {
+figure.snip1206:hover figcaption div,
+figure.snip1206.hover figcaption div {
   -webkit-transform: translate3d(0%, 0%, 0);
   transform: translate3d(0%, 0%, 0);
   -webkit-transition-delay: 0.2s;
@@ -2178,8 +2163,8 @@ figure.snip1206:hover figcaption h2,
 figure.snip1206.hover figcaption h2 {
   opacity: 1;
 }
-figure.snip1206:hover figcaption p,
-figure.snip1206.hover figcaption p {
+figure.snip1206:hover figcaption div,
+figure.snip1206.hover figcaption div {
   opacity: 1;
 }
 
@@ -2207,6 +2192,15 @@ figure.snip1206.hover figcaption p {
 }
 .qualifications__logo {
   display: none;
+}
+.tools__card { 
+  padding: 20px 3px;
+}
+.tools__slider {
+  margin-bottom: 0px;
+}
+.tools__slide {
+  transform: scale(0.75);
 }
 }
 

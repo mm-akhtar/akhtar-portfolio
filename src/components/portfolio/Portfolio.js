@@ -31,12 +31,15 @@ function Portfolio() {
 						loop>
 						<SwiperSlide>
 							<div className='ai__tools__card portfolio__content grid'>
-								<img src='/img/portfolio1.jpg' alt='portfolio' className='portfolio__img'></img>
+								<img src='/img/nextlevelbot.png' alt='portfolio' className='portfolio__img'></img>
 
 								<div className='portfolio__data'>
-									<h3 className='portfolio__title'>Modern Website</h3>
-									<p className='portfolio__description'>Website adaptable to all devices, with ui components and animated interactions.</p>
-									<a href='#hello' className='button button--flex button--small portfolio__button'>
+									<h3 className='portfolio__title'>Next Level Bot</h3>
+									<p className='portfolio__description'>
+										A sophisticated website showcasing my expertise in advanced automation and bot solutions. It empowers individuals and businesses to enhance efficiency in trading. By leveraging
+										cutting-edge technologies and adopting a user-centric approach.
+									</p>
+									<a href='https://nextlevelbot.com/' target='_blank' className='button button--flex button--small portfolio__button'>
 										Demo
 										<i className='uil uil-arrow-right button__icon'></i>
 									</a>
@@ -45,12 +48,15 @@ function Portfolio() {
 						</SwiperSlide>
 						<SwiperSlide>
 							<div className='ai__tools__card portfolio__content grid'>
-								<img src='/img/portfolio2.jpg' alt='portfolio' className='portfolio__img'></img>
+								<img src='/img/deymon.png' alt='portfolio' className='portfolio__img'></img>
 
 								<div className='portfolio__data'>
-									<h3 className='portfolio__title'>Brand Design</h3>
-									<p className='portfolio__description'>Website adaptable to all devices, with ui components and animated interactions.</p>
-									<a href='#hello' className='button button--flex button--small portfolio__button'>
+									<h3 className='portfolio__title'>Deyemon Gestion</h3>
+									<p className='portfolio__description'>
+										A solution provider for construction-related work. It offers specialized tools and features to streamline project planning, tracking, resource management, and cost control. With
+										user-friendly interfaces and intuitive functionalities, it empowers construction professionals to optimize their workflows and achieve successful project outcomes.
+									</p>
+									<a href='https://gestion.deyemon.be' target='_blank' className='button button--flex button--small portfolio__button'>
 										Demo
 										<i className='uil uil-arrow-right button__icon'></i>
 									</a>
@@ -60,11 +66,14 @@ function Portfolio() {
 
 						<SwiperSlide>
 							<div className='ai__tools__card portfolio__content grid'>
-								<img src='/img/portfolio3.jpg' alt='portfolio' className='portfolio__img'></img>
+								<img src='/img/lapedia.png' alt='portfolio' className='portfolio__img'></img>
 
 								<div className='portfolio__data'>
-									<h3 className='portfolio__title'>Online Store</h3>
-									<p className='portfolio__description'>Website adaptable to all devices, with ui components and animated interactions.</p>
+									<h3 className='portfolio__title'>Lapedia</h3>
+									<p className='portfolio__description'>
+										Introducing the next-gen Wikipedia: a dynamic AI-powered platform where terms and definitions are verified and expanded using user inputs. Say goodbye to outdated information and
+										hello to a constantly evolving knowledge hub. Experience the future of reliable and comprehensive resources, empowering you with accurate insights at your fingertips.
+									</p>
 									<a href='#hello' className='button button--flex button--small portfolio__button'>
 										Demo
 										<i className='uil uil-arrow-right button__icon'></i>

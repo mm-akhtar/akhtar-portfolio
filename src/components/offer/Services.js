@@ -27,9 +27,9 @@ function Services() {
 					<div className='services__content'>
 						<div onClick={uiHandler}>
 							<div>
-								<i className='uil uil-brain services__icon'></i>
+								<i className='uil  uil-arrow services__icon'></i>
 								<h3 className='services__title'>
-									AI/ML <br></br> Engineer
+									Frontend <br></br> Developer
 								</h3>
 							</div>
 
@@ -41,27 +41,27 @@ function Services() {
 
 						<div className={`services__modal ${isUi && 'active-modal'}`}>
 							<div className='services__modal-content'>
-								<h4 className='services_modal-title'>
-									Ai/Ml <br></br> Engineer
+								<h4 className='services__modal-title'>
+									Frontend <br></br> Developer
 								</h4>
 								<i className='uil uil-times services__modal-close' onClick={closeHandler}></i>
 
 								<ul className='services__modal-services grid'>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>I develop the user interface.</p>
+										<p>Website Design: Creating visually appealing designs for websites.</p>
 									</li>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>Web page development.</p>
+										<p>Seamlessly Developing Websites for a Seamless User Experience</p>
 									</li>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>I create ux element interactions.</p>
+										<p>Delivering Responsive Web Solutions.</p>
 									</li>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>I position your company brand.</p>
+										<p>Bringing Ideas to Life with Interactive and Insightful Prototypes</p>
 									</li>
 								</ul>
 							</div>
@@ -71,9 +71,9 @@ function Services() {
 					<div className='services__content'>
 						<div onClick={feHandler}>
 							<div>
-								<i className='uil uil-arrow services__icon'></i>
+								<i className='uil  uil-server-network  services__icon'></i>
 								<h3 className='services__title'>
-									Full Stack <br></br> Developer
+									Backend <br></br> Developer
 								</h3>
 							</div>
 
@@ -84,27 +84,27 @@ function Services() {
 						</div>
 						<div className={`services__modal ${isFe && 'active-modal'}`}>
 							<div className='services__modal-content'>
-								<h4 className='services_modal-title'>
-									Full Stack <br></br> Developer
+								<h4 className='services__modal-title'>
+									Backend <br></br> Developer
 								</h4>
 								<i className='uil uil-times services__modal-close ' onClick={closeHandler}></i>
 
 								<ul className='services__modal-services grid'>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>I develop the user interface.</p>
+										<p>Powering Databases and Data Dynamics</p>
 									</li>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>Web page development.</p>
+										<p>Seamless API Development and Integration</p>
 									</li>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>I create ux element interactions.</p>
+										<p>Backed development by Powerful Frameworks and Technology</p>
 									</li>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>I position your company brand.</p>
+										<p>Reliable Backend Maintenance and Support at Your Service</p>
 									</li>
 								</ul>
 							</div>
@@ -114,9 +114,9 @@ function Services() {
 					<div className='services__content'>
 						<div onClick={bdHandler}>
 							<div>
-								<i className='uil uil-window-grid services__icon'></i>
+								<i className='uil uil-brain services__icon'></i>
 								<h3 className='services__title'>
-									Blockchain <br></br> Enthusiast
+									AI & Blockchain <br></br> Engineer
 								</h3>
 							</div>
 
@@ -127,27 +127,27 @@ function Services() {
 						</div>
 						<div className={`services__modal ${isBd && 'active-modal'}`}>
 							<div className='services__modal-content'>
-								<h4 className='services_modal-title'>
-									Blockchain <br></br> Enthusiast
+								<h4 className='services__modal-title'>
+									AI & Blockchain <br></br> Enthusiast
 								</h4>
 								<i className='uil uil-times services__modal-close' onClick={closeHandler}></i>
 
 								<ul className='services__modal-services grid'>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>I develop the user interface.</p>
+										<p>Empowering Businesses with Artificial Intelligence</p>
 									</li>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>Web page development.</p>
+										<p>Unleashing the Magic of Machine Learning</p>
 									</li>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>I create ux element interactions.</p>
+										<p>Pioneering AI Solutions for a Smarter Future</p>
 									</li>
 									<li className='services__modal-service'>
 										<i className='uil uil-check-circle services__modal-icon'></i>
-										<p>I position your company brand.</p>
+										<p>Innovating with Trust and Transparency through Blockchain</p>
 									</li>
 								</ul>
 							</div>

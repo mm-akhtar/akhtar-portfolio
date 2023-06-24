@@ -40,8 +40,7 @@ function Skills() {
 					spaceBetween={48}
 					className='mySwiper'
 					loopAdditionalSlides={2}
-					loopFillGroupWithBlank={true}
-				>
+					loopFillGroupWithBlank={true}>
 					<SwiperSlide>
 						<div>
 							<div className={`skills__content skills__open`}>
@@ -49,7 +48,7 @@ function Skills() {
 									<i className='uil uil-brackets-curly skills__icon'></i>
 									<div>
 										<h1 className='skills__title'>Frontend developer</h1>
-										<span className='skills__subtitle'> MOre than 4 years </span>
+										<span className='skills__subtitle'> More than 3 years </span>
 									</div>
 									<i className='uil uil-angle-down skills__arrow'></i>
 								</div>
@@ -105,7 +104,7 @@ function Skills() {
 									<i className='uil uil-server-network skills__icon'></i>
 									<div>
 										<h1 className='skills__title'>Backend developer</h1>
-										<span className='skills__subtitle'> MOre than 3 years </span>
+										<span className='skills__subtitle'> More than 2 years </span>
 									</div>
 									<i className='uil uil-angle-down skills__arrow'></i>
 								</div>
@@ -113,7 +112,7 @@ function Skills() {
 								<div className='skills__list grid'>
 									<div className='skills__data'>
 										<div className='skills__titles'>
-											<h3 className='skills__name'>PHP</h3>
+											<h3 className='skills__name'>Mongo DB</h3>
 											<span className='skills__number'>80%</span>
 										</div>
 										<div className='skills__bar'>
@@ -160,8 +159,8 @@ function Skills() {
 								<div className='skills_header'>
 									<i className='uil uil-swatchbook skills__icon'></i>
 									<div>
-										<h1 className='skills__title'>Designer</h1>
-										<span className='skills__subtitle'> MOre than 5 years </span>
+										<h1 className='skills__title'>Specialization</h1>
+										<span className='skills__subtitle'> More than 1 years </span>
 									</div>
 									<i className='uil uil-angle-down skills__arrow'></i>
 								</div>
@@ -179,7 +178,7 @@ function Skills() {
 
 									<div className='skills__data'>
 										<div className='skills__titles'>
-											<h3 className='skills__name'>Sketch</h3>
+											<h3 className='skills__name'>Sk Learn</h3>
 											<span className='skills__number'>85%</span>
 										</div>
 										<div className='skills__bar'>
@@ -194,6 +193,15 @@ function Skills() {
 										</div>
 										<div className='skills__bar'>
 											<span className='skills__percentage skills__photoshop'></span>
+										</div>
+									</div>
+									<div className='skills__data'>
+										<div className='skills__titles'>
+											<h3 className='skills__name'>TensorFlow</h3>
+											<span className='skills__number'>85%</span>
+										</div>
+										<div className='skills__bar'>
+											<span className='skills__percentage skills__figma'></span>
 										</div>
 									</div>
 								</div>

@@ -22,9 +22,9 @@ const AboutCard = () => {
 											<i className='uil uil-phone about__icon'></i>
 
 											<div>
-												<a href='tel:999777666'>
+												<a href='tel:+919365234855'>
 													{/* <h3 className='contact__title'>Call Me</h3> */}
-													<span className='about__subtitle'>999-777-666</span>
+													<span className='about__subtitle'>+91 9365234855</span>
 												</a>
 											</div>
 										</div>
@@ -34,7 +34,7 @@ const AboutCard = () => {
 
 											<div>
 												<a href='mailto:contact.mmakhtar@gmail.com' target='_blank'>
-													<span className='about__subtitle'>akhtar@gmail.com</span>
+													<span className='about__subtitle'>contact.mmakhtar@gmail.com</span>
 												</a>
 											</div>
 										</div>

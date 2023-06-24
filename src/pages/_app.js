@@ -6,15 +6,12 @@ import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css";
 import "swiper/components/pagination/pagination.min.css";
 
-function AkhtarApp({ Component, pageProps }) {
+export default function AkhtarApp({ Component, pageProps }) {
   const router = useRouter();
   return(
     
     <Layout>
-      
       <Component {...pageProps} key={router.route} />
     </Layout>
   )
 }
-
-export default AkhtarApp

@@ -13,9 +13,9 @@ function Contact() {
             <i className="uil uil-phone contact__icon"></i>
 
             <div>
-              <a href="tel:999777666">
+              <a href="tel:+919365234855">
                 <h3 className="contact__title">Call Me</h3>
-                <span className="contact__subtitle">999-777-666</span>
+                <span className="contact__subtitle">+91 9365234855</span>
               </a>
             </div>
             </div>
@@ -27,7 +27,7 @@ function Contact() {
           
               <a href="mailto:contact.mmakhtar@gmail.com"  target="_blank">
                 <h3 className="contact__title">Email</h3>
-                <span className="contact__subtitle">akhtar@gmail.com</span>
+                <span className="contact__subtitle">contact.mmakhtar@gmail.com</span>
               </a>
             </div>
             </div>
@@ -37,7 +37,7 @@ function Contact() {
 
             <div>
               <h3 className="contact__title">Location</h3>
-              <span className="contact__subtitle">India - Bangalore, 560064</span>
+              <span className="contact__subtitle">India - Bangalore</span>
             </div>
             </div>
           </div>
