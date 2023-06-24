@@ -1765,7 +1765,7 @@ width: var(--size);
   flex-direction: column;
   position: relative;
   transition: all 0.3s ease-out;
-  height: 70% !important;
+  min-height: 70% !important;
 }
 
 
