@@ -36,9 +36,14 @@ export default function Nav ({themeHandler, isDark}) {
                         <i className="uil nav__icon uil-scenery" ></i> Portfolio
                         </a>
                     </li>
-                    <li className="nav__item">
+                    {/* <li className="nav__item">
                         <a href="#tools" className="nav__link" onClick={toggleHandler}>
-                        <i className="uil nav__icon uil-scenery" ></i> Tools
+                        <i className="uil nav__icon uil-window-grid" ></i> Tools
+                        </a>
+                    </li> */}
+                    <li className="nav__item">
+                        <a href="#fiverr" className="nav__link" onClick={toggleHandler}>
+                        <i className="uil nav__icon uil-briefcase-alt" ></i> Fiverr
                         </a>
                     </li>
                     <li className="nav__item">

@@ -36,6 +36,9 @@ export default function Footer (){
 							<a href='https://www.linkedin.com/in/mm-akhtar/' target='_blank' className='footer__social'>
 								<i className='uil uil-linkedin'></i>
 							</a>
+							<a href='https://wa.me/919365234855' target='_blank' className='footer__social'>
+								<i className='uil uil-whatsapp'></i>
+							</a>
 
 							<a href='https://stackoverflow.com/users/15547425/mm-akhtar' target='_blank' className='footer__social'>
 								<Icon icon='jam:stackoverflow' style={{marginBottom: '-2px'}} />

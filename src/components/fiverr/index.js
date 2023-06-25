@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react';
 
 const Fiverr = () => {
 	return (
-		<section className='section' id='tools'>
+		<section className='section' id='fiverr'>
 			<h2 className='section__title'>Fiverr</h2>
 			<span className='section__subtitle'> What Gigs I offer</span>
 			<div className='fiverr__parent__container container grid'>

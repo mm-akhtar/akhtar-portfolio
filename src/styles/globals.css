@@ -2216,8 +2216,11 @@ figure.snip1206.hover figcaption div {
   transform: scale(0.75);
 }
 .testimonial__description{
-  font-size: var(--small-font-size) !important;
+  /* font-size: var(--smaller-font-size) !important; */
   font-size: 0.6rem !important;
+}
+.testimonial__card {
+  min-height: 75% !important;
 }
 }
 
