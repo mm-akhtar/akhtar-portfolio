@@ -7,7 +7,7 @@ export default function Nav ({themeHandler, isDark}) {
         setShow(prevState => !prevState);
     }
     return(
-        <nav className="nav container">
+        <nav className="nav container ">
             <a href="/" className="nav__logo">Akhtar</a>
             <div className={`nav__menu ${isShow && 'show-menu'}`} >
                 <ul className="nav__list grid">

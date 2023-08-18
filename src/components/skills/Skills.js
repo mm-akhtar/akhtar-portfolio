@@ -132,8 +132,8 @@ function Skills() {
 
 									<div className='skills__data'>
 										<div className='skills__titles'>
-											<h3 className='skills__name'>Firebase</h3>
-											<span className='skills__number'>60%</span>
+											<h3 className='skills__name'>Python</h3>
+											<span className='skills__number'>90%</span>
 										</div>
 										<div className='skills__bar'>
 											<span className='skills__percentage skills__firebase'></span>
@@ -142,8 +142,8 @@ function Skills() {
 
 									<div className='skills__data'>
 										<div className='skills__titles'>
-											<h3 className='skills__name'>Python</h3>
-											<span className='skills__number'>85%</span>
+											<h3 className='skills__name'>Firebase</h3>
+											<span className='skills__number'>60%</span>
 										</div>
 										<div className='skills__bar'>
 											<span className='skills__percentage skills__python'></span>
@@ -169,7 +169,7 @@ function Skills() {
 									<div className='skills__data'>
 										<div className='skills__titles'>
 											<h3 className='skills__name'>Figma</h3>
-											<span className='skills__number'>80%</span>
+											<span className='skills__number'>90%</span>
 										</div>
 										<div className='skills__bar'>
 											<span className='skills__percentage skills__figma'></span>
@@ -198,7 +198,7 @@ function Skills() {
 									<div className='skills__data'>
 										<div className='skills__titles'>
 											<h3 className='skills__name'>TensorFlow</h3>
-											<span className='skills__number'>85%</span>
+											<span className='skills__number'>90%</span>
 										</div>
 										<div className='skills__bar'>
 											<span className='skills__percentage skills__figma'></span>

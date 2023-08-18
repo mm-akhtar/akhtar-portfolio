@@ -14,7 +14,7 @@ const clients = [
 			</>
 		),
 		review:
-			"Akhtar's work was fast, delivering high-quality results in a timely manner. What stood out the most was their caring approach. Overall, I highly recommend this frontend developer for his impressive skills and client-oriented approach.",
+			"Fast, competent, caring, flexible :) | Amazing. He offers professional work, besides being initiative for providing great suggestions. He is open to listen carefully and continuously adapt the UI/UX to the user's requirements.",
 	},
 	{
 		name: 'Cétaud Michel',
