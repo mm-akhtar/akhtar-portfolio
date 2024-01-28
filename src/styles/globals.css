@@ -2336,6 +2336,8 @@ figure.snip1206.hover figcaption div {
 }
 
 .tile {
+  max-width: 1024px;
+  margin: auto;
   position: relative;
   width: 100%;
   height: 100%;
@@ -2353,15 +2355,15 @@ figure.snip1206.hover figcaption div {
 }
 
 .tile article {
-	width : 100%;
+  width: 100%;
 }
 
 .tile article svg {
-	min-width: 100%;
+  min-width: 100%;
   max-width: 100%;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .testimonial__overlay {
     left: 50%;
     transform: translate(-50%, 0);
@@ -2370,10 +2372,13 @@ figure.snip1206.hover figcaption div {
     font-size: var(--small-font-size) !important;
     font-size: 0.6rem !important;
   }
+  .tile article {
+    max-width: 300px;
+  }
 }
 
 .logo-container {
-	display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -2393,21 +2398,21 @@ figure.snip1206.hover figcaption div {
   stroke: var(--title-color);
   stroke-width: 10;
   stroke-dasharray: 2555;
-/*   stroke-dataoffset: 25; */
+  /*   stroke-dataoffset: 25; */
   animation: cloud 10s ease-in-out infinite;
 }
 @keyframes cloud {
   0% {
     stroke-dashoffset: 2555;
-    fill: var(--input-color)
+    fill: var(--input-color);
   }
   50% {
     stroke-dashoffset: 0;
     fill: var(--text-color);
-	opacity: 0.5;
+    opacity: 0.5;
   }
   100% {
     stroke-dashoffset: 2555;
-    fill: var(--input-color)
-}
+    fill: var(--input-color);
+  }
 }

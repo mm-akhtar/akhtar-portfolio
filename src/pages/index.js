@@ -91,7 +91,7 @@ export default function Home() {
       </section>
 
       <About />
-      <a href="https://github.com/mm-akhtar" target='_blank' rel='noreferrer' className='tile container'>
+      <a href="https://github.com/mm-akhtar" target='_blank' rel='noreferrer' className='tile'>
         <GitHubCalendar username="mm-akhtar" colorScheme='dark' />
       </a>
       <Skills />
