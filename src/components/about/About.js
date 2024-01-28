@@ -41,7 +41,7 @@ function About() {
           <div className="about__buttons">
             <a
               download="mm-akhtar-cv.pdf"
-              href="/doc/akhtar-cv.pdf"
+              href="/doc/mm-akhtar-cv.pdf"
               target="_blank"
               className="button button--flex"
             >

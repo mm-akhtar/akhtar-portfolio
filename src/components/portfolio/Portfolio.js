@@ -15,7 +15,7 @@ function Portfolio() {
 		setIsFe(true);
 	};
 	const bdHandler = () => {
-		setIsBd(true);
+		// setIsBd(true);
 	};
 
 	const closeHandler = () => {
